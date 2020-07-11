@@ -1,0 +1,156 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Karla', sans-serif;
+  font-size: 1rem;
+  background-color: #ffffff;
+}
+
+h3 {
+  font-weight: 700;
+}
+
+p {
+  font-weight: 400;
+}
+
+.intro-section {
+  padding: 2em;
+  padding-top: 1em;
+  text-align: left;
+  width: 65%;
+}
+
+@media (min-width: 793px and max-width: 900px) {
+  .intro-section {
+    width: 68%;
+  }
+}
+
+@media (min-width: 901px) {
+  .intro-section {
+    width: 50%;
+  }
+}
+
+
+.intro-title {
+  color: hsl(179, 70%, 43%);
+  font-weight: 1000;
+}
+
+.intro-subtitle {
+  color: hsl(71, 73%, 54%);
+  font-weight: 700;
+}
+
+.intro-body {
+  color: hsl(218, 22%, 67%);
+  word-spacing: 1px;
+}
+
+.info-section {
+  text-align: left;
+}
+
+.info-section-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.subscription-section {
+  padding: 2em;
+  background-color: hsl(179, 62%, 43%);
+  border: 1px solid hsl(179, 62%, 43%);
+}
+
+.subscription-title {
+  color: #ffffff;
+  font-weight: 1000;
+}
+
+.subscription-subtitle {
+  color: hsl(204, 43%, 93%);
+  color: #05dfd7;
+  font-weight: lighter;
+}
+
+.price {
+  color: #ffffff;
+  font-size: 2rem;
+  margin-right: 0.2em;
+  font-weight: bold;
+}
+
+.subscription-body {
+  color: #ffffff;
+  font-weight: 400;
+  word-spacing: 1px;
+}
+
+.signupbutton {
+  margin-top: 2.5em;
+  background-color: hsl(71, 73%, 54%);
+  text-align: center;
+  padding: 1em;
+  color: #ffffff;
+  border-radius: 10px;
+  font-weight: 500;
+}
+
+.query-section {
+  padding: 2em;
+  background-color: hsl(179, 75%, 43%);
+}
+
+.query-section-title {
+  color: #ffffff;
+  font-weight: 1000;
+}
+
+.query-section ul {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.query-section li {
+  color: hsl(204, 43%, 93%);
+  font-size: 0.8rem;
+  line-height: 1.5em;
+  font-weight: lighter;
+}
+
+
+
+
+
+
+
+
+@media (min-width: 793px) {
+
+  .info-section-flex {
+    flex-direction: row;
+  }
+
+  .subscription-section,
+  .query-section {
+    width: 50%
+  }
+
+}
+
+footer {
+  margin-top: 2em;
+}
+.attribution
+{
+font-size: 11px;
+text-align: center;
+}
+
+.attribution a
+{
+color: hsl(228, 45%, 44%);
+}
