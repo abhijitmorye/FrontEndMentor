@@ -7,8 +7,6 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="master.css">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap" rel="stylesheet">
-
-
   <title>Frontend Mentor | Huddle landing page with alternating feature blocks</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -17,12 +15,10 @@
 <body>
   <header>
     <nav class=" nav-box nav-box-flex">
-      <div  class="nav-logo">
-        <img src="images/logo.svg" alt="logo">
-      </div>
+        <img src="images/logo.svg" alt="logo" class="nav-logo">
       <p class="nav-button">Try It Free</p>
     </nav>
-    <div class="intro-header-box">
+    <div class="intro-header-box intro-header-box-flex">
       <div class="intro-header-info">
         <h1 class="intro-header-title">Build The Community Your Fans Will Love</h1>
         <p class="intro-header-subtitle">Huddle re-imagines the way we build communities. You have a voice, but so does your audience.Create connections with your users as you engage in genuine discussion.</p>
@@ -32,31 +28,39 @@
         <img src="images/illustration-mockups.svg" alt="mockups" class="intro-header-image">
       </div>
     </div>
-  </header>
+  </header> <!-- header close -->
+
+  <div class="middle-container">
+    <article class="cards cards-flex">
+      <div class="card-body-box">
+        <h2 class="card-title">Grow Together</h2>
+        <p class="card-info">Generate meaningful discussions with your audience and build a strong, loyal community.Think of the insightful conversations you miss out on with a feedback form.</p>
+      </div>
+      <div class="card-image-box">
+        <img src="images/illustration-grow-together.svg" alt="" class="card-image">
+      </div>
+    </article>
+    <article class="cards cards-flex">
+      <div class="card-body-box" id="middle-card-body-box">
+        <h2 class="card-title">Flowing Conversations</h2>
+        <p class="card-info">You wouldn't paginate a conversation in real life, so why do it online? Our threads have just-in-time loading for a more natural flow.</p>
+      </div>
+      <div class="card-image-box" id="middle-card-image-box">
+        <img src="images/illustration-flowing-conversation.svg" alt="" class="card-image">
+      </div>
+    </article>
+    <article class="cards cards-flex">
+      <div class="card-body-box">
+        <h2 class="card-title">Your Users</h2>
+        <p class="card-info">It takes no time at all to integrate Huddle with your app's authentication solution.This means, once signed in to your app, your users can start chatting immediately.</p>
+      </div>
+      <div class="card-image-box">
+        <img src="images/illustration-your-users.svg" alt="" class="card-image">
+      </div>
+    </article>
+  </div>
 
 
-
-
-
-
-
-
-
-
-  Grow Together
-
-  Generate meaningful discussions with your audience and build a strong, loyal community.
-  Think of the insightful conversations you miss out on with a feedback form.
-
-  Flowing Conversations
-
-  You wouldn't paginate a conversation in real life, so why do it online? Our threads
-  have just-in-time loading for a more natural flow.
-
-  Your Users
-
-  It takes no time at all to integrate Huddle with your app's authentication solution.
-  This means, once signed in to your app, your users can start chatting immediately.
 
   Ready To Build Your Community?
 
