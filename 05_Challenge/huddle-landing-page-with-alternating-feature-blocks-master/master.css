@@ -1,0 +1,59 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/* general elements */
+
+header {
+  width: 90%;
+  margin: 0em auto;
+  background-color: hsl(193, 100%, 96%);
+  background-image: url('images/bg-hero-mobile.svg');
+  position: relative;
+}
+
+img {
+  display: block;
+}
+/* typology */
+
+h1 , h2, h3 {
+  margin-top: 0em;
+}
+
+p {
+  font-size: 1rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+}
+
+/* header */
+
+.nav-box {
+  width: 100%;
+}
+
+.nav-box-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-logo {
+  width: 10%;
+}
+
+.nav-logo img {
+  width: 250%;
+}
+
+
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
