@@ -4,21 +4,19 @@ body {
 }
 
 /* general elements */
-
 header {
   width: 90%;
   margin: 0em auto;
   background-color: hsl(193, 100%, 96%);
   background-image: url('images/bg-hero-mobile.svg');
-
 }
 
 img {
   display: block;
 }
-/* typology */
 
-h1 , h2, h3 {
+/* typology */
+h1, h2, h3 {
   margin-top: 0em;
   font-family: 'Poppins', sans-serif;
 }
@@ -31,11 +29,9 @@ p {
 }
 
 /* header */
-
 .nav-box {
   width: 100%;
   margin-bottom: 4em;
-
 }
 
 .nav-box-flex {
@@ -114,7 +110,6 @@ p {
 }
 
 @media (min-width: 900px) {
-
   header {
     background-image: url('images/bg-hero-desktop.svg');
   }
@@ -127,11 +122,9 @@ p {
   .nav-button {
     width: 10%;
   }
-
 }
 
 @media (min-width: 1260px) {
-
   .intro-header-box-flex {
     flex-direction: row;
   }
@@ -161,13 +154,10 @@ p {
   width: 100%;
 }
 
-
 /* middle-container */
-
-
 .middle-container {
   width: 90%;
-  margin: 3em auto;
+  margin: 3em auto 3em;
 }
 
 .cards {
@@ -175,7 +165,6 @@ p {
   text-align: center;
   margin: 2em auto;
   border-radius: 10px;
-  padding: 1.5em;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -210,11 +199,10 @@ p {
 
 .card-image {
   width: 70%;
-  margin: 0em auto;
+  margin: 1em auto;
 }
 
 @media (min-width: 900px) {
-
   .cards-flex {
     flex-direction: row;
   }
@@ -225,7 +213,7 @@ p {
 
   .card-body-box {
     width: 40%;
-    margin: 2em auto 0em;
+    margin: 4em auto 0em;
     order: 1;
   }
 
@@ -252,26 +240,165 @@ p {
   }
 }
 
+/* footer */
+footer {
+  background-color: hsl(192, 100%, 9%);
+  margin-top: 3em;
+}
 
+.commnuinty-box {
+  width: 80%;
+  text-align: center;
+  border: 1px solid #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: #ffffff;
+  margin: 0em auto 5em;
+}
 
+.commnuinty-box-title {
+  color: #000000;
+  font-size: 1.20rem;
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
 
+.commnuinty-box-buttton {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 0.8rem;
+  padding: 0.8em;
+  background-color: hsl(322, 100%, 66%);
+  border-radius: 50px;
+  width: 40%;
+  margin: 0em auto 3em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
+.commnuinty-box-buttton:hover {
+  background-color: hsl(283, 41%, 48%);
+}
 
+@media (min-width: 900px) {
+  .commnuinty-box {
+    width: 45%;
+  }
 
+  .commnuinty-box-buttton {
+    width: 35%;
+    margin: 0em auto 3em;
+  }
+}
 
+.footer-container {
+  width: 90%;
+  margin: 0em auto;
+}
 
+.foot-container-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 
+.footer-container-primary {
+  width: 80%;
+  margin: 3em auto 0.5em;
+  text-align: left;
+}
 
+.footer-logo {
+  width: 40%;
+  height: 20px;
+}
 
+.footer-container-primary-info-box {
+  margin-top: 2em;
+}
 
+.footer-container-primary-info-box-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 
+.footer-container-primary-info {
+  margin-bottom: 1em;
+}
 
+.footer-container-primary-info-flex {
+  display: flex;
+  justify-content: space-between;
+}
 
+.footer-container-primary-info-image {
+  width: 5%;
+  height: 20px;
+}
 
+.footer-container-primary-info-body {
+  width: 90%;
+  margin-top: 0em;
+  text-align: left;
+  color: #e6e1e1;
+}
 
+.footer-container-primary-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 
+.footer-container-listbox {
+  width: 30%;
+  text-align: left;
+}
 
+.footer-container-listbox-item {
+  color: #e6e1e1;
+}
 
+.social-icons-box-flex {
+  display: flex;
+  justify-content: center;
+}
+
+.social-icons {
+  width: 8%;
+  margin-right: 5px;
+  border-radius: 150px;
+  border: 3px solid #000000;
+}
+
+.copyright-container {
+  text-align: center;
+  padding: 2em;
+}
+
+.copyright-container p {
+  color: #e6e1e1;
+  font-size: 0.75em;
+  font-weight: 400;
+}
+
+@media (min-width: 900px) {
+  .foot-container-flex {
+    flex-direction: row;
+  }
+
+  .footer-container-primary {
+    width: 25%;
+  }
+
+  .footer-container-primary-flex {
+    flex-direction: row;
+  }
+
+  .copyright-container {
+    text-align: right;
+    padding: 2em;
+  }
+}
 
 .attribution {
   font-size: 11px;
