@@ -242,8 +242,8 @@ p {
 
 /* footer */
 footer {
-  background-color: hsl(192, 100%, 9%);
-  margin-top: 3em;
+  margin-top: 0em;
+  position: relative;
 }
 
 .commnuinty-box {
@@ -253,7 +253,7 @@ footer {
   border-radius: 20px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background-color: #ffffff;
-  margin: 0em auto 5em;
+  margin: 5em auto 0em;
 }
 
 .commnuinty-box-title {
@@ -290,9 +290,17 @@ footer {
   }
 }
 
-.footer-container {
-  width: 90%;
+.footer-big-box {
+  width: 100%;
   margin: 0em auto;
+  background-color: hsl(192, 100%, 9%);
+  z-index: -1;
+  position: absolute;
+  top: 5em;
+}
+
+.footer-container {
+  margin-top: 3em;
 }
 
 .foot-container-flex {
@@ -305,6 +313,10 @@ footer {
   width: 80%;
   margin: 3em auto 0.5em;
   text-align: left;
+}
+
+.footer-container-first-box {
+  margin: 10em auto 0.5em;
 }
 
 .footer-logo {
@@ -383,10 +395,12 @@ footer {
 @media (min-width: 900px) {
   .foot-container-flex {
     flex-direction: row;
+    flex-wrap: wrap;
   }
 
   .footer-container-primary {
     width: 25%;
+    margin: 10em auto 0.5em;
   }
 
   .footer-container-primary-flex {
@@ -404,10 +418,17 @@ footer {
 }
 
 .attribution {
+  margin-top: 80em;
   font-size: 11px;
   text-align: center;
 }
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 900px) {
+  .attribution {
+    margin-top: 50em;
+  }
 }
