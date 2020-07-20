@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 1.7;
+  background-color: hsl(257, 40%, 49%);
+  background-image: url('images/bg-mobile.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 3rem;
+}
+
+.logo-box {
+  width: 30%;
+  margin-left: 0rem;
+  margin-bottom: 5rem;
+}
+
+.logo-box__logo {
+  width: 100%;
+}
+
+.middle-container {
+  margin-left: 0em;
+  margin-bottom: 5rem;
+}
+
+.middle-container-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.middle-container__image-box {
+  width: 100%;
+  margin-left: 0rem;
+  margin-bottom: 3rem;
+}
+
+.middle-container__image-box__image {
+  width: 100%;
+}
+
+.middle-container__info-box {
+  text-align: center;
+}
+
+.middle-container__info-box__title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.middle-container__info-box__title span {
+  display: block;
+}
+
+.middle-container__info-box__body {
+  margin-bottom: 5rem;
+}
+
+.btn:link,
+.btn:visited {
+  text-decoration: none;
+  padding: 1rem 10rem;
+  border-radius: 10rem;
+  margin-bottom: 5rem;
+  transition: all 0.2s ease-out;
+}
+
+.btn:hover {
+  transform: translateY(-1rem);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+}
+
+.btn:active {
+  transform: translateY(0.5rem);
+  box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.2);
+}
+
+.btn--white {
+  background-color: #ffffff;
+  color: hsl(257, 40%, 49%);
+  font-weight: 700;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5rem;
+}
+
+.btn--white:hover {
+  color: hsl(257, 62%, 69%);
+}
+
+.social-icons-box-flex {
+  display: flex;
+  justify-content: center;
+}
+
+.social-icons-box__icon {
+  height: 2.5rem;
+  width: 8%;
+}
+
+.social-icons-box__icon:nth-child(2) {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+@media (min-width: 900px) {
+  body {
+    background-image: url('images/bg-desktop.svg');
+  }
+
+  .logo-box {
+    width: 15%;
+  }
+
+  .middle-container-flex {
+    flex-direction: row;
+  }
+
+  .middle-container__image-box,
+  .middle-container__info-box {
+    width: 48%;
+  }
+
+  .middle-container__info-box {
+    text-align: left;
+    margin-top: 2rem;
+  }
+
+  .social-icons-box {
+    justify-content: flex-end;
+  }
+
+  .social-icons-box__icon {
+    width: 2.5%;
+  }
+}
+
+footer {
+  margin-top: 10rem;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #ffffff;
+}
