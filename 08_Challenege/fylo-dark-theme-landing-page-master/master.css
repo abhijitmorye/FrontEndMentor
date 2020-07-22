@@ -1,0 +1,183 @@
+/* base */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+
+}
+
+body {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  background-color: hsl(216, 53%, 9%);
+  padding: 2em;
+  color: hsl(0, 0%, 100%);
+  line-height: 1.3;
+}
+
+/* header */
+
+.header-box {
+  background-color: hsl(217, 28%, 15%);
+}
+
+.header-box__nav {
+  margin-bottom: 3em;
+}
+
+.header-box__nav-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-box__nav_logobox {
+  width: 22%;
+  margin: 0;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.header-box__nav_logobox__logo {
+  width: 100%;
+}
+
+.header-box__nav__pages {
+  width: 48%;
+  margin: 0em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+
+.header-box__nav__pages ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.header-box__nav__pages ul li {
+  padding-left: 0;
+  margin: auto 0em;
+  font-size: 1.4rem;
+  font-weight: normal;
+}
+
+.header-box__header-intro {
+  text-align: center;
+  margin: 2em 0em;
+}
+
+.header-box__header-intro__imgbox {
+  width: 80%;
+  margin: 2em auto 2em;
+}
+
+.header-box__header-intro__imgbox__img {
+  width: 100%;
+}
+
+.header-box__header-intro__body {
+  width: 80%;
+  margin: 0em auto;
+}
+
+.header-box__header-intro__body__title {
+
+  font-size: 3rem;
+  font-weight: 700;
+  font-family: 'Raleway', sans-serif;
+  margin-bottom: 1em;
+}
+
+.header-box__header-intro__body__info {
+
+  font-size: 1.7rem;
+  font-weight: normal;
+  margin-bottom: 2em;
+}
+
+.btn:link,
+.btn:visited {
+
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 100px;
+  padding: 0.7em 4em;
+  font-size: 1.5rem;
+  margin-bottom: 2em;
+}
+
+.btn-header {
+  color: white;
+  background-image: linear-gradient(to right,hsl(176, 68%, 64%),hsl(198, 60%, 50%));
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution {
+  font-size: 11px; text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
