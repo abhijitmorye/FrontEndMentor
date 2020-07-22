@@ -272,6 +272,11 @@ body {
     width: 45%;
     margin-top: 8em;
   }
+  .middle-container-main__first_widgets-box__widget__title--leftalign span {
+    display: block;
+    margin-bottom: 0.5em;
+    font-size: 2.5rem;
+  }
 }
 
 .attribution {
