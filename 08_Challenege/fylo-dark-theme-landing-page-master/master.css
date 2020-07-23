@@ -280,12 +280,12 @@ body {
   }
 }
 
-.comment__box__sign {
-  width: 6%;
-  margin-left: 10rem;
+.middle-container-main__box__comment-box__quote {
+  width: 8%;
+  transform: translateX(4.5em);
 }
 
-.comment__box__sign__img {
+.middle-container-main__box__comment-box__quote__img {
   width: 100%;
 }
 
@@ -342,11 +342,26 @@ body {
   .middle-container-main__box__comment-box {
     margin-bottom: 2em;
   }
+  .middle-container-main__box__comment-box__quote {
+    width: 3%;
+    transform: translate(0em,-2em);
 }
+
+/* footer */
+
+
+.footer-main-box {
+  background-color: 
+}
+
+
+
 
 .attribution {
   font-size: 11px;
   text-align: center;
+}
+
 }
 
 .attribution a {
