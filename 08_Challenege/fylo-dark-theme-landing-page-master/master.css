@@ -342,20 +342,17 @@ body {
   .middle-container-main__box__comment-box {
     margin-bottom: 2em;
   }
+
   .middle-container-main__box__comment-box__quote {
     width: 3%;
-    transform: translate(0em,-2em);
-}
-
+    transform: translate(0em, -2em);
+  }
 }
 
 /* footer */
-
-
-.footer-main-box {
-
+footer {
   width: 100%;
-  background-color: hsl(216, 53%, 9%);
+  position: relative;
 }
 
 .sign-up-box {
@@ -366,85 +363,226 @@ body {
   margin: 0em auto;
   text-align: center;
   padding: 3.5em;
+}
 
+.sign-up-box__emailbox--flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .sign-up-box__emailbox {
-  margin-top: 2em;
+  margin-top: 3em;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
+  padding: 1em 2em;
 }
 
 .sign-up-box__emailbox__email {
-  padding: 0.7em 4em;
   border-radius: 10em;
   border: 1px solid;
   color: #eee;
   font-weight: 700;
   margin-bottom: 1em;
+  padding: 0em 2em;
+  height: 40px;
 }
 
-.sign-up-box--padding {
-  padding: 1em 1.2em;
+@media (min-width: 950px) and (max-width: 1109px) {
+  .middle-container-main__first_widgets-box__widget__info {
+    width: 50%;
+    margin: 0em auto;
+  }
+
+  .sign-up-box__emailbox--flex {
+    flex-direction: row;
+  }
+
+  .sign-up-box__emailbox__email {
+    width: 59%;
+  }
+
+  .sign-ip-email-btn {
+    width: 40%;
+  }
 }
 
-.footer-big-box {
-  width: 90%;
-  margin: 5em auto;
+@media (min-width: 1110px) {
+  .middle-container-main__first_widgets-box__widget__info {
+    width: 50%;
+    margin: 0em auto;
+  }
+
+  .sign-up-box__emailbox--flex {
+    flex-direction: row;
+  }
+
+  .sign-up-box__emailbox__email {
+    width: 69%;
+  }
+
+  .sign-ip-email-btn {
+    width: 30%;
+  }
+}
+
+.footer-main-box {
+  width: 100%;
+  margin: 0em auto;
+  background-color: hsl(216, 53%, 9%);
+  z-index: -1;
+  position: absolute;
+  top: 15em;
+  padding: 2em 3em;
 }
 
 .footer-logo-box {
   width: 40%;
   padding: 1.5em;
+  margin-bottom: 3em;
+  margin-top: 25em;
 }
 
-.footer-logo-box__img {
+.footer-logo-box--img {
   width: 100%;
 }
 
-.footer-big-box__primary {
-  margin-top: 3em;
-}
+.footer-main-box--primary {}
 
-.footer-big-box__primary--flex {
+.footer-main-box--primary--flex {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.attribution {
-  font-size: 11px;
-  text-align: center;
+.footer-main-box__A {
+  margin-bottom: 5em;
 }
 
+.footer-main-box__A--flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.contact-box {
+  margin-bottom: 2.5em;
+}
+
+.contact-box--flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-box__img-box {
+  width: 4%;
+  height: 20px;
+}
+
+.contact-box__img-box__img {
+  width: 100%;
+}
+
+.footer-typo {
+  font-size: 1.5rem;
+  line-height: 1.3;
+  font-weight: 400;
+  margin-bottom: 1em;
+}
+
+.contact-box__info {
+  width: 90%;
+  text-align: left;
+}
+
+.contact-box-listmargin-bottom {
+  margin-bottom: 6em;
+}
+
+.contact-box ul {
+  list-style: none;
+}
+
+.contact-box ul li {
+  padding-left: 0em;
+}
+
+.social-icons-box-flex {
+  display: flex;
+  justify-content: center;
+}
+
+.social-icons {
+  width: 8%;
+  height: 25px;
+  margin-right: 10px;
+  fill: #ffffff;
+}
+
+@media (min-width: 950px) {
+  .footer-logo-box {
+    width: 10%;
+  }
+
+  .footer-main-box--primary--flex {
+    flex-direction: row;
+  }
+
+  .footer-main-box__A--flex {
+    flex-direction: row;
+  }
+
+  .footer-main-box__A--w40 {
+    width: 55%;
+  }
+
+  .footer-main-box__A--w30 {
+    width: 35%;
+  }
+
+  .footer-main-box__A--w10 {
+    width: 30%;
+  }
+
+  .contact-outer-box {
+    width: 46%;
+  }
+
+  .contact-box-list-1 {
+    width: 25%;
+  }
+
+  .contact-box-list-2 {
+    width: 65%;
+  }
+
+  .contact-box__img-box {
+    height: 40px;
+  }
+
+  .contact-box__info {
+    width: 90%;
+  }
+
+  .footer-logo-box {
+    margin-top: 15em;
+  }
+}
+
+.attribution {
+  margin-top: 85em;
+  font-size: 11px;
+  text-align: center;
+  margin-bottom: 10em;
+}
 
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: white;
+}
+
+@media (min-width: 950px) {
+  .attribution {
+    margin-top: 35em;
+  }
 }
